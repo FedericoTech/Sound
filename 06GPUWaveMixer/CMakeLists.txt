@@ -3,8 +3,6 @@ set(PROGRAM_NAME 06GPUWaveMixer)
 
 find_package( OpenGL REQUIRED )
 
-#add_subdirectory( "${CMAKE_CURRENT_SOURCE_DIR}/../../SDK/glew-2.1.0/build/cmake" "${CMAKE_CURRENT_BINARY_DIR}/glew")
-
 add_executable (${PROGRAM_NAME}
 	"06GPUWaveMixer.cpp"
 )

@@ -1,1 +1,1 @@
-cmake -E chdir build/default cmake --build . -j %NUMBER_OF_PROCESSORS% --target all & color 07
+cmake -E chdir build/MinGW cmake --build . -j %NUMBER_OF_PROCESSORS% --target all & color 07
